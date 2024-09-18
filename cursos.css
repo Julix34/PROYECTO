@@ -1,0 +1,101 @@
+body{
+    background-color: beige;
+    margin: auto;
+    margin-top: 1vh;
+}
+
+.principal{
+    min-height: auto;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: beige;
+}
+
+.header{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+}
+.caja{
+    width: 25vh;
+    height: 25vh;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.img{
+    width: 200px;
+    height: 200px ;
+}
+
+.img:hover{
+    background-color: white;
+}
+
+.text{
+    color: black;
+}
+
+a:hover{
+    color: red;
+}
+
+
+@media screen and (max-width:800px) {
+    .main{
+        width: 100%;
+    }
+
+    aside{
+        width: 100%;
+    }
+
+    footer{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width:430px) {
+    
+}
+
+.menu{
+    display:flex;
+    width: 100%;
+    font-size: 200%;
+    max-width: 100%;
+    position:static;
+
+}
+
+.link{
+    background-color: rgb(255, 174, 0);
+    padding: 1vh;
+    color: rgb(255, 255, 255);
+    text-decoration:NONE;
+    padding-left: 7%;
+    padding-right: 6%;
+    border-radius: 1px;
+    
+}
+
+a:hover{
+    background-color: rgb(255, 254, 190);
+    color: black;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(223, 50, 7);
+    font-size: 310%;
+}
+
+p{
+    text-align: center;
+    font-family:cursive;
+    font-size: 120%;
+}
